@@ -1,0 +1,141 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top, #0f2027, #000);
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* ================= NAV ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #00f6ff;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #00f6ff;
+}
+
+/* ================= HERO ================= */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(0,246,255,0.1), transparent);
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    text-shadow: 0 0 15px #00f6ff;
+}
+
+.hero-content p {
+    margin: 15px 0;
+    opacity: 0.8;
+}
+
+/* ================= BUTTON ================= */
+.btn-primary {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #00f6ff, #00ffa2);
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* ================= SECTIONS ================= */
+.section {
+    padding: 80px 10%;
+}
+
+.section h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* ================= GLASS ================= */
+.glass {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 40px 10%;
+}
+
+/* ================= GRID ================= */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* ================= CARDS ================= */
+.card {
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(0,246,255,0.2);
+}
+
+.card.neon {
+    box-shadow: 0 0 20px rgba(0,246,255,0.15);
+}
+
+.card h4 {
+    margin-bottom: 15px;
+}
+
+/* ================= TAGS ================= */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tags span {
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 1px solid #00f6ff;
+    font-size: 14px;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    opacity: 0.6;
+}
